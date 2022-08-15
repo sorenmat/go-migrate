@@ -1,4 +1,4 @@
-module github.com/sorenmat/go-migrate/v2
+module github.com/sorenmat/go-migrate
 
 go 1.18
 
