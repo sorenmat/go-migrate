@@ -1,28 +1,4 @@
-# Gormigrate
-
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/go-gormigrate/gormigrate/v2?tab=doc)](https://pkg.go.dev/github.com/go-gormigrate/gormigrate/v2?tab=doc)
-[![Build status](https://ci.appveyor.com/api/projects/status/89e414sklbwefyyp?svg=true)](https://ci.appveyor.com/project/andreynering/gormigrate)
-
-Gormigrate is a minimalistic migration helper for [Gorm][gorm].
-Gorm already has useful [migrate functions][gormmigrate], just misses
-proper schema versioning and migration rollback support.
-
-> IMPORTANT: If you need support to Gorm v1 (which uses
-> `github.com/jinzhu/gorm` as its import path), please import Gormigrate by
-> using the `gopkg.in/gormigrate.v1` import path.
->
-> The current Gorm version (v2) is supported by using the
-> `github.com/go-gormigrate/gormigrate/v2` import path as described in the
-> documentation below.
-
-## Supported databases
-
-It supports any of the [databases Gorm supports][gormdatabases]:
-
-- PostgreSQL
-- MySQL
-- SQLite
-- Microsoft SQL Server
+# go-migrate
 
 ## Usage
 
@@ -211,3 +187,6 @@ task docker
 [gorm]: http://gorm.io/
 [gormmigrate]: https://gorm.io/docs/migration.html
 [gormdatabases]: https://gorm.io/docs/connecting_to_the_database.html
+
+
+** Based on the work of Gormigrate **
